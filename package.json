@@ -1,7 +1,7 @@
 {
   "name": "react-simple-forms",
   "version": "1.0.0",
-  "description": "Simple login-signup forms using react, formik, material ui, yup and react-router for navigation",
+  "description": "Simple signin-signup forms using react, formik, material ui, yup and react-router for navigation",
   "repository": "https://github.com/diptarag/react-simple-forms.git",
   "author": "Diptarag <diptarag@gmail.com>",
   "license": "MIT",
