@@ -78,7 +78,7 @@ export default function SignIn() {
                   autoComplete='email'
                   autoFocus
                   inputProps = {{...field}}
-                  error = {meta.touched && meta.error}
+                  error = {meta.touched && typeof meta.error !== 'undefined'}
                 />
               )}
             </Field>
@@ -95,7 +95,7 @@ export default function SignIn() {
                   id='password'
                   autoComplete='current-password'
                   inputProps = {{...field}}
-                  error = {meta.touched && meta.error}
+                  error = {meta.touched && typeof meta.error !== 'undefined'}
                 />
               )}
             </Field>
